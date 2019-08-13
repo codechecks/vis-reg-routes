@@ -1,8 +1,7 @@
 {
-  "name": "@codechecks/lighthouse-keeper",
+  "name": "@codechecks/vis-reg-routes",
   "description": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "codechecks/lighthouse-keeper",
   "author": "Chris Kaczor <chris@kaczor.io>",
   "version": "0.0.1",
@@ -21,8 +20,8 @@
     "lint:fix": "yarn format:fix && yarn tslint:fix && yarn tsc",
     "test:unit": "jest",
     "test:watch": "jest --watch",
-    "test": "yarn lint && yarn test:unit",
-    "test:fix": "yarn lint:fix && yarn test:unit",
+    "test": "yarn lint",
+    "test:fix": "yarn lint:fix",
     "prepublishOnly": "yarn test && yarn build"
   },
   "files": [
@@ -31,6 +30,7 @@
   "devDependencies": {
     "@codechecks/client": "0.1.6-beta.4",
     "@codechecks/type-coverage-watcher": "^0.1.3",
+    "@codechecks/vis-reg": "^0.0.2",
     "@types/bluebird": "^3.5.25",
     "@types/jest": "^23.3.12",
     "@types/lodash": "^4.14.121",
@@ -50,6 +50,8 @@
     "@codechecks/client": "^0.1.0"
   },
   "dependencies": {
+    "http-server": "^0.11.1",
+    "pageres": "^5.1.0",
     "tmp-promise": "^2.0.2"
   },
   "publishConfig": {
