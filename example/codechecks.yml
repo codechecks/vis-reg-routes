@@ -1,7 +1,7 @@
 checks:
   - name: "../src/index.ts"
     options:
-      collectionName: "website"
+      collectionName: website
       buildPath: "./build"
       routes:
         - /

@@ -2,7 +2,7 @@
   "name": "@codechecks/vis-reg-routes",
   "description": "",
   "keywords": [],
-  "repository": "codechecks/lighthouse-keeper",
+  "repository": "codechecks/vis-reg-routes",
   "author": "Chris Kaczor <chris@kaczor.io>",
   "version": "0.0.1",
   "main": "lib/index.js",
